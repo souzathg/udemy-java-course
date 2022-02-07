@@ -1,3 +1,6 @@
+/* Toda classe em Java é uma subclasse da classe Object */
+/* Object possui os seguintes métodos: getClass, equals, hashCode, toString */
+
 package application;
 
 import java.util.Locale;
@@ -22,7 +25,7 @@ public class StockProgram {
         System.out.print("Quantity in stock: ");
         product.quantity = sc.nextInt();
 
-        System.out.println(product.name + ", " + product.price + ", " + product.quantity);
+        System.out.println(product);
 
         sc.close();
     }
