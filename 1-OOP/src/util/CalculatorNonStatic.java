@@ -1,6 +1,6 @@
 package util;
 
-public class Calculator {
+public class CalculatorNonStatic {
 
     public final double PI = 3.14159;
 

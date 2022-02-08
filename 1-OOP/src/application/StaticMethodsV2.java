@@ -1,18 +1,19 @@
-// Essa primeira versão da aplicação não terá métodos estáticos. Nas próximas versões já faremos uso desses recursos.
+// Na segunda versão, foi importada a classe CalculatorNonStatic, onde foram acrescentadas
+// as funções de volume e circunferência, porém não de maneira estática.
 
 package application;
 
 import java.util.Locale;
 import java.util.Scanner;
 
-import util.Calculator;
+import util.CalculatorNonStatic;
 
 public class StaticMethodsV2 {
 
     public static void main(String[] args) {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
-        Calculator calc = new Calculator();
+        CalculatorNonStatic calc = new CalculatorNonStatic();
 
         System.out.print("Enter radius: ");
         double radius = sc.nextDouble();

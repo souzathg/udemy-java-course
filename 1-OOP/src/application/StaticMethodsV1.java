@@ -1,4 +1,5 @@
-// Essa primeira versão da aplicação não terá métodos estáticos. Nas próximas versões já faremos uso desses recursos.
+// Essa primeira versão da aplicação não terá métodos estáticos.
+// Nas próximas versões já faremos uso desses recursos.
 
 package application;
 
