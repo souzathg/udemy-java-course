@@ -10,30 +10,30 @@ public class BankProgram {
         Locale.setDefault(Locale.US);
         Scanner sc = new Scanner(System.in);
 
+        BankAccount account;
+
         System.out.print("Enter account number: ");
-        int accountNumber = sc.nextInt();
+        int number = sc.nextInt();
         sc.nextLine();
 
         System.out.print("Enter account holder: ");
-        String holderName = sc.nextLine();
+        String holder = sc.nextLine();
 
         System.out.print("Is there an initial deposit (y/n)? ");
-        String option = sc.nextLine();
+        char option = sc.next().charAt(0);
 
-        while (!option.equals("y") && !option.equals("n")) {
+        while (option != 'y' && option != 'n') {
             System.out.println("Invalid option. Please, enter 'y' or 'n'.");
-            option = sc.nextLine();
+            option = sc.next().charAt(0);
         }
 
-        double initialDeposit = 0;
-
-        if (option.equals("y")) {
-
+        if (option == 'y') {
             System.out.print("Enter initial deposit value: ");
-            initialDeposit = sc.nextDouble();
+            double initialDeposit = sc.nextDouble();
+            account = new BankAccount(number, holder, initialDeposit);
+        } else {
+            account = new BankAccount(number, holder);
         }
-
-        BankAccount account = new BankAccount(accountNumber, holderName, initialDeposit);
 
         System.out.println();
         System.out.println("Account data:\n" + account);

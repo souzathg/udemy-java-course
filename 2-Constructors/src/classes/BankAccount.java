@@ -1,33 +1,33 @@
 package classes;
 
 public class BankAccount {
-    private int accountNumber;
-    private String holderName;
+    private int number;
+    private String holder;
     private double balance;
 
     // Construtores \\
-    public BankAccount(int accountNumber, String holderName, double balance) {
-        this.accountNumber = accountNumber;
-        this.holderName = holderName;
-        this.balance = balance;
+    public BankAccount(int number, String holder, double initialDeposit) {
+        this.number = number;
+        this.holder = holder;
+        deposit(initialDeposit);
     }
 
-    public BankAccount(int accountNumber, String holderName) {
-        this.accountNumber = accountNumber;
-        this.holderName = holderName;
+    public BankAccount(int number, String holder) {
+        this.number = number;
+        this.holder = holder;
     }
 
     // Getters and Setters \\
-    public int getAccountNumber() {
-        return accountNumber;
+    public int getNumber() {
+        return number;
     }
 
-    public String getHolderName() {
-        return holderName;
+    public String getHolder() {
+        return holder;
     }
 
-    public void setHolderName(String holderName) {
-        this.holderName = holderName;
+    public void setHolder(String holder) {
+        this.holder = holder;
     }
 
     public double getBalance() {
@@ -45,9 +45,9 @@ public class BankAccount {
 
     public String toString() {
         return "Account "
-                + accountNumber
+                + number
                 + ", Holder: "
-                + holderName
+                + holder
                 + ", Balance: $ "
                 + String.format("%.2f", balance);
     }
