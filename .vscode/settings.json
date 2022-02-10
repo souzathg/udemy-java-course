@@ -1,3 +1,7 @@
 {
-  "java.project.sourcePaths": ["1-OOP/src", "2-Constructors/src"]
+  "java.project.sourcePaths": [
+    "1-OOP/src",
+    "2-Constructors/src",
+    "3-Arrays/src"
+  ]
 }
