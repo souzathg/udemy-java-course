@@ -3,7 +3,7 @@ package app;
 import java.util.Locale;
 import java.util.Scanner;
 
-import classes.Product;
+import classes.Product3;
 
 public class Arrays2 {
     public static void main(String[] args) {
@@ -12,13 +12,13 @@ public class Arrays2 {
 
         int n = sc.nextInt();
 
-        Product[] vect = new Product[n];
+        Product3[] vect = new Product3[n];
 
         for (int i = 0; i < vect.length; i++) {
             sc.nextLine();
             String name = sc.nextLine();
             double price = sc.nextDouble();
-            vect[i] = new Product(name, price);
+            vect[i] = new Product3(name, price);
         }
 
         double sum = 0.0;
