@@ -2,6 +2,7 @@
   "java.project.sourcePaths": [
     "1-OOP/src",
     "2-Constructors/src",
-    "3-Arrays/src"
+    "3-Arrays/src",
+    "4-Matrices/src"
   ]
 }
