@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1-OOP/1-OOP.iml" filepath="$PROJECT_DIR$/1-OOP/1-OOP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2-Constructors/2-Constructors.iml" filepath="$PROJECT_DIR$/2-Constructors/2-Constructors.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3-Arrays/3-Arrays.iml" filepath="$PROJECT_DIR$/3-Arrays/3-Arrays.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4-Matrices/4-Matrices.iml" filepath="$PROJECT_DIR$/4-Matrices/4-Matrices.iml" />
+      <module fileurl="file://$PROJECT_DIR$/5-Date/5-Date.iml" filepath="$PROJECT_DIR$/5-Date/5-Date.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6-Herança-Polimorfismo/6-Herança-Polimorfismo.iml" filepath="$PROJECT_DIR$/6-Herança-Polimorfismo/6-Herança-Polimorfismo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/6-Herança-Polimorfismo/7-Abstract-Classes-Methods/7-Abstract-Classes-Methods.iml" filepath="$PROJECT_DIR$/6-Herança-Polimorfismo/7-Abstract-Classes-Methods/7-Abstract-Classes-Methods.iml" />
+      <module fileurl="file://$PROJECT_DIR$/7-Files/7-Files.iml" filepath="$PROJECT_DIR$/7-Files/7-Files.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Interfaces/Interfaces.iml" filepath="$PROJECT_DIR$/Interfaces/Interfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/udemy-java-course.iml" filepath="$PROJECT_DIR$/.idea/udemy-java-course.iml" />
+    </modules>
+  </component>
+</project>
