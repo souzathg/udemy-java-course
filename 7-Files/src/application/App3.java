@@ -5,7 +5,6 @@ import java.io.FileReader;
 import java.io.IOException;
 
 public class App3 {
-
     public static void main(String[] args) {
 
         String path = "/tmp/in.txt";
